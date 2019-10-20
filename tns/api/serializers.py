@@ -5,6 +5,10 @@ from api.models import Travel
 from api.models import Travelers
 
 
+class Login(serializers.ModelSerializer):
+    pass
+
+
 class UserSerializer(serializers.ModelSerializer):
     class Meta:
         model = User
