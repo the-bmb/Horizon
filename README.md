@@ -2,14 +2,12 @@
 ## INSTALL
 
     Clone o repositório.
-    git clone https://github.com/codenation-dev/squad-6-ad-python-2.git
-    cd squad-6-ad-python-2
+    git clone https://github.com/the-bmb/Horizon.git
+    cd Horizon
     Instale as dependências.
     pip install -r requirements.txt
     Construa o banco de dados.
     python manage.py migrate
-    Carregue os dados de exemplo
-    python manage.py loaddata televendas.json
     rode o servidor.
     python manage.py runserver
 
