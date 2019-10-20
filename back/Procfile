@@ -1,1 +1,1 @@
-web: gunicorn codenation.wsgi
+web: gunicorn tns.wsgi
